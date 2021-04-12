@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('_head.html',{
+"title":"MNTN",
+"keywords":"keywords",
+"Description":"Это концепция целевой страницы блога о походах и путешествиях",
+"urlSite":"https://site.ru",
+"imagePreload":"https://site.ru/img/image.jpg"
+})
+
+<body>
+	<div class="wrapper">
+		<div class="bg">
+			<div class="bg__image bg__image--clouds">
+				<img class="bg__img" src="img/clouds.png" alt="">
+			</div>
+	
+			<div class="bg__image bg__image--mountains">
+				<img class="bg__img" src="img/mountains.png" alt="">
+			</div>
+	
+			<div class="bg__image bg__image--meadow">
+				<img class="bg__img" src="img/meadow.png" alt="">
+			</div>
+
+			<div class="bg__image bg__image--shadow">
+				<img class="bg__img" src="img/bg-shadow.png" alt="">
+			</div>
+		</div>
+
+		<div class="slider">
+			<ul class="slider__list">
+				<li class="slider__item">
+					<a class="slider__link _active" href="#header">Start</a>
+				</li>
+
+				<li class="slider__item">
+					<a class="slider__link" href="#block-1">01</a>
+				</li>
+
+				<li class="slider__item">
+					<a class="slider__link" href="#block-2">02</a>
+				</li>
+
+				<li class="slider__item">
+					<a class="slider__link" href="#block-3">03</a>
+				</li>
+			</ul>
+		</div>
+
+		@@include('_header.html',{})
+
+		<main class="page">
+      <article class="content">
+				<div class="content__container _container">
+					<div class="content__inner">
+						<div class="content__item" id="block-1">
+							<div class="content__box">
+								<div class="content__num">01</div>
+
+								<div class="content__tagline tagline">
+									<div class="tagline__line"></div>
+									<div class="tagline__text">
+										get started
+									</div>
+								</div>
+				
+								<h2 class="content__title title">
+									What level of hiker are you?
+								</h2>
+
+								<p class="content__text">
+									Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker? 
+								</p>
+
+								<a class="content__more" href="#">
+									read more
+
+									<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 -6.99382e-07L14.59 1.41L20.17 7L-3.93402e-07 7L-3.0598e-07 9L20.17 9L14.58 14.58L16 16L24 8L16 -6.99382e-07Z" fill="#FBD784"/>
+									</svg>										
+								</a>
+							</div>
+							
+							<div class="content__image">
+								<img class="content__img" src="img/img-1.jpg" alt="image">
+							</div>
+						</div>
+
+						<div class="content__item" id="block-2">
+							<div class="content__image">
+								<img class="content__img" src="img/img-2.jpg" alt="image">
+							</div>
+
+							<div class="content__box  content__box--reverse">
+								<div class="content__num">02</div>
+
+								<div class="content__tagline tagline">
+									<div class="tagline__line"></div>
+									<div class="tagline__text">
+										Hiking Essentials
+									</div>
+								</div>
+				
+								<h2 class="content__title title">
+									Picking the right Hiking Gear!
+								</h2>
+
+								<p class="content__text">
+									The nice thing about beginning hiking is that you don’t really need any special gear, you can probably get away with things you already have.
+									Let’s start with clothing. A typical mistake hiking beginners make is wearing jeans and regular clothes, which will get heavy and chafe wif they get sweaty or wet. 
+								</p>
+
+								<a class="content__more" href="#">
+									read more
+									
+									<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 -6.99382e-07L14.59 1.41L20.17 7L-3.93402e-07 7L-3.0598e-07 9L20.17 9L14.58 14.58L16 16L24 8L16 -6.99382e-07Z" fill="#FBD784"/>
+									</svg>										
+								</a>
+							</div>
+						</div>
+
+						<div class="content__item" id="block-3">
+							<div class="content__box">
+								<div class="content__num">03</div>
+
+								<div class="content__tagline tagline">
+									<div class="tagline__line"></div>
+									<div class="tagline__text">
+										where you go is the key
+									</div>
+								</div>
+				
+								<h2 class="content__title title">
+									Understand Your Map & Timing
+								</h2>
+
+								<p class="content__text">
+									To start, print out the hiking guide and map. If it’s raining, throw them in a Zip-Lock bag. Read over the guide, study the map, and have a good idea of what to expect. I like to know what my next landmark is as I hike. For example, I’ll read the guide and know that say, in a mile, I make a right turn at the junction.. 
+								</p>
+
+								<a class="content__more" href="#">
+									read more
+									
+									<svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16 -6.99382e-07L14.59 1.41L20.17 7L-3.93402e-07 7L-3.0598e-07 9L20.17 9L14.58 14.58L16 16L24 8L16 -6.99382e-07Z" fill="#FBD784"/>
+									</svg>										
+								</a>
+							</div>
+							
+							<div class="content__image">
+								<img class="content__img" src="img/img-3.jpg" alt="image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</main>
+
+		@@include('_footer.html',{})
+	</div>
+
+	@@include('_popup.html',{})
+	@@include('_js.html',{})
+</body>
+
+</html>
